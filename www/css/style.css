@@ -1,2 +1,14 @@
 /**/
+button, label {
+  margin-top: 20px;
+  color:#0A1B3B;
+}
 
+body{
+    background-color:#BDD2FA;
+}
+
+.jumbotron{
+    background-color: #2269ED;
+    color:#050E1E0D3F9C;
+}
