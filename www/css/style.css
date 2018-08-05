@@ -1,14 +1,24 @@
-/**/
 button, label {
   margin-top: 20px;
-  color:#0A1B3B;
-}
-
-body{
-    background-color:#BDD2FA;
+  color:#1F1A06;
+  
 }
 
 .jumbotron{
-    background-color: #2269ED;
-    color:#050E1E0D3F9C;
+    background-color: #9A4402;
+}
+
+button{
+    background-color: #742A02;
+}
+
+button, label, input{
+    margin-left:10%;
+}
+
+body{
+    background-color:#DC7138;
+    color:#A07E03;
+    font-size: 14px;
+    font-family: 'Merienda', cursive;
 }
