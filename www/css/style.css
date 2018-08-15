@@ -8,12 +8,17 @@ button, label {
     background-color: #9A4402;
 }
 
-button{
+.btn-warning{
     background-color: #742A02;
+    margin-top:20px;
+    
 }
 
-button, label, input{
-    margin-left:10%;
+ label, input{
+    margin-left:5%;
+
+
+
 }
 
 body{

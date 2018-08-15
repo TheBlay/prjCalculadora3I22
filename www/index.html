@@ -24,14 +24,14 @@
 <body>
 <div class="container">
   <div class="row">
-    <div class="col-xs-10"></div>
+    <div class="col-xs-12"></div>
     <div class="jumbotron">
       <h1>Calculadora do Blay</h1>
     </div>
   </div>
 </div>
 <div class="row">
-    <div class="col-xs-10">
+    <div class="col-xs-12">
         <label for="valor1">Valor 1</label>
         <input type="number" id="valor1"  class="form-control" min="0" />
     </div>
@@ -39,7 +39,7 @@
 </div>
 
 <div class="row">
-    <div class="col-xs-10">
+    <div class="col-xs-12">
         <div class="form-group">
             <label for="valor2">Valor 2</label>
             <input type="number" id="valor2"  class="form-control" min="0" />
@@ -59,11 +59,17 @@
 </div>
 
 <div class="row">
-    <div class="col-xs-12">
+    <div class="col-xs-10">
     
-        <div class="form-group">
-            <input type="button" class="btn-primary"  value="Calcular!" id="somar" />
-        </div>
+
+        
+            <input type="button" class="btn btn-warning btn-block"  value="+" id="somar" />
+            <input type="button" class="btn btn-warning btn-block" value="-" id="sub" />
+            <input type="button" class="btn btn-warning btn-block" value="*" id="mult" />
+            <input type="button" class="btn btn-warning btn-block" value="/" id="divi" />
+    
+            
+
     </div>
 </div>
 </body>
